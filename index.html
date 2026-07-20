@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="OpsBoard is a macOS command center for AI coding agents, projects, terminals, tasks, reviews, and remote machines."
+    />
+    <meta name="theme-color" content="#07080b" />
+    <meta property="og:title" content="OpsBoard — Direct the work, not the windows" />
+    <meta
+      property="og:description"
+      content="Run Codex, Claude, Grok, and more from one durable engineering workspace."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://jasonsujaya.github.io/OpsBoard-Landing/" />
+    <meta property="og:image" content="https://jasonsujaya.github.io/OpsBoard-Landing/landing/opsboard-landing-hero.png" />
+    <link rel="canonical" href="https://jasonsujaya.github.io/OpsBoard-Landing/" />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23131720'/%3E%3Cpath d='M18 18h28v28H18z' fill='%238d72ff'/%3E%3Cpath d='M25 25h14v14H25z' fill='%2307080b'/%3E%3C/svg%3E" />
+    <link rel="stylesheet" href="./landing/styles.css" />
+    <title>OpsBoard — AI engineering command center</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="OpsBoard home">
+        <span class="brand-mark" aria-hidden="true">O</span>
+        <span>OpsBoard</span>
+      </a>
+      <nav aria-label="Primary navigation">
+        <a href="#control">Control</a>
+        <a href="#workflow">Workflow</a>
+        <a href="#machines">Machines</a>
+      </nav>
+      <a class="header-link" href="https://github.com/JasonSujaya/OpsBoard-Landing">Website source</a>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top">
+        <div class="hero-copy">
+          <p class="eyebrow"><span></span> Private macOS beta</p>
+          <h1>Direct the work.<br /><em>Not the windows.</em></h1>
+          <p class="hero-lede">
+            One command center for Codex, Claude, Grok, and the engineering work they
+            deliver—across local projects and remote machines.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#workflow">
+              See how it works <span aria-hidden="true">↓</span>
+            </a>
+            <a class="button button-secondary" href="https://github.com/JasonSujaya/OpsBoard-Landing">Website source</a>
+          </div>
+          <p class="hero-note">Built for macOS · Local-first storage · Evidence-backed delivery</p>
+        </div>
+
+        <div class="product-stage" aria-label="OpsBoard product preview">
+          <div class="stage-glow"></div>
+          <div class="app-window">
+            <div class="window-bar">
+              <div class="traffic-lights" aria-hidden="true"><i></i><i></i><i></i></div>
+              <span>OpsBoard</span>
+              <div class="window-status"><i></i> All systems ready</div>
+            </div>
+            <div class="app-shell">
+              <aside class="app-sidebar">
+                <div class="sidebar-brand"><b>O</b><span>Operations</span></div>
+                <p>Workspace</p>
+                <a class="active" href="#top"><span>⌘</span> Command center</a>
+                <a href="#workflow"><span>◫</span> Task board <small>7</small></a>
+                <a href="#control"><span>⌁</span> Product</a>
+                <p>Projects</p>
+                <a href="#machines"><i class="project-dot violet"></i> OpsBoard</a>
+                <a href="#machines"><i class="project-dot cyan"></i> Project Atlas</a>
+                <a href="#machines"><i class="project-dot amber"></i> Project Pulse</a>
+              </aside>
+              <div class="workspace">
+                <div class="workspace-head">
+                  <div><span>OPSBOARD</span><h2>Command center</h2></div>
+                  <button type="button" tabindex="-1">＋ New lane</button>
+                </div>
+                <div class="lane-grid">
+                  <article class="agent-lane">
+                    <div class="lane-head"><b class="agent-mark codex">C</b><span>Codex</span><small class="working">Working</small></div>
+                    <p class="terminal-line muted">› Checking acceptance criteria…</p>
+                    <p class="terminal-line">✓ Build production package</p>
+                    <p class="terminal-line">✓ Run task system tests</p>
+                    <p class="terminal-line live">● Verifying delivery evidence</p>
+                    <div class="lane-footer"><span>Task OPS-214</span><b>68%</b></div>
+                  </article>
+                  <article class="agent-lane">
+                    <div class="lane-head"><b class="agent-mark claude">A</b><span>Claude</span><small class="review">Review</small></div>
+                    <p class="terminal-line muted">› Reviewing changed files…</p>
+                    <p class="terminal-line">src/main/services/orchestration</p>
+                    <p class="terminal-line">4 checks passed · 0 blockers</p>
+                    <p class="terminal-line live amber-text">● Preparing verdict</p>
+                    <div class="lane-footer"><span>Review OPS-209</span><b>92%</b></div>
+                  </article>
+                  <article class="task-stack">
+                    <div class="stack-head"><span>Ready for review</span><b>3</b></div>
+                    <div class="task-card"><i class="project-dot violet"></i><div><b>Remote machine access</b><span>Codex · 4 files · verified</span></div><small>High</small></div>
+                    <div class="task-card"><i class="project-dot cyan"></i><div><b>Landing page deployment</b><span>Claude · checks passing</span></div><small>Medium</small></div>
+                    <div class="task-card"><i class="project-dot amber"></i><div><b>Provider account roster</b><span>Codex · evidence attached</span></div><small>Medium</small></div>
+                  </article>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="floating-card floating-left"><span class="pulse"></span><div><small>Active agents</small><b>4 working · 2 ready</b></div></div>
+          <div class="floating-card floating-right"><span>✓</span><div><small>Last delivery</small><b>Tests and review passed</b></div></div>
+        </div>
+      </section>
+
+      <section class="provider-strip" aria-label="Supported AI providers">
+        <p>One workspace. Your choice of agents.</p>
+        <div><span><b>C</b> Codex</span><span><b>A</b> Claude</span><span><b>G</b> Grok</span><span><b>O</b> OpenCode</span><span><b>H</b> Hermes</span></div>
+      </section>
+
+      <section class="section" id="control">
+        <div class="section-intro">
+          <p class="eyebrow"><span></span> One control plane</p>
+          <h2>Your agents can move fast.<br />Your system should stay clear.</h2>
+          <p>OpsBoard keeps provider sessions, projects, tasks, evidence, and review in one inspectable workspace.</p>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-card feature-wide">
+            <div class="feature-icon">⌘</div>
+            <h3>Parallel agents, visible work</h3>
+            <p>Run multiple CLI agents in focused lanes without losing the project, task, or machine each session belongs to.</p>
+            <div class="mini-lanes" aria-hidden="true"><span><b>C</b> Building <i></i></span><span><b>A</b> Reviewing <i></i></span><span><b>K</b> Researching <i></i></span></div>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon">✓</div>
+            <h3>Work that has a receipt</h3>
+            <p>Tasks carry acceptance criteria, progress, changed files, verification commands, and an explicit review decision.</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon">↻</div>
+            <h3>Autonomy with boundaries</h3>
+            <p>Heartbeat dispatches eligible work, respects dependencies and capacity, and routes completed work through review.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section workflow-section" id="workflow">
+        <div class="section-intro compact">
+          <p class="eyebrow"><span></span> Durable workflow</p>
+          <h2>From a goal to reviewed work.</h2>
+          <p>The board is not decoration. It is the shared source of truth for humans and agents.</p>
+        </div>
+        <ol class="workflow">
+          <li><b>01</b><div><h3>Plan</h3><p>Turn the goal into grounded features, specs, and acceptance criteria.</p></div></li>
+          <li><b>02</b><div><h3>Dispatch</h3><p>Match eligible work to the right provider, transport, and machine.</p></div></li>
+          <li><b>03</b><div><h3>Verify</h3><p>Check evidence and run trusted commands before accepting completion.</p></div></li>
+          <li><b>04</b><div><h3>Review</h3><p>Approve the delivery or send it back with concrete feedback.</p></div></li>
+        </ol>
+      </section>
+
+      <section class="section machine-section" id="machines">
+        <div class="machine-copy">
+          <p class="eyebrow"><span></span> Local and remote</p>
+          <h2>Every session knows where it lives.</h2>
+          <p>
+            Keep your Mac and VPS lanes visually separate. Machine-scoped provider accounts make login state, capacity,
+            and ownership obvious before an agent starts work.
+          </p>
+          <ul><li>Named machines and SSH-backed workspaces</li><li>Provider accounts grouped by host</li><li>Clear local, remote, signed-in, and signed-out state</li></ul>
+        </div>
+        <div class="machine-panel">
+          <div class="machine-tabs"><span class="selected">Local Mac</span><span>Production VPS</span></div>
+          <div class="machine-row"><div class="machine-avatar mac">M</div><div><b>Studio Mac</b><span>Local · Apple Silicon</span></div><small class="online">Online</small></div>
+          <div class="account-row"><b class="agent-mark codex">C</b><div><strong>Codex Base</strong><span>Shared personalization</span></div><small>Signed in</small></div>
+          <div class="account-row"><b class="agent-mark claude">A</b><div><strong>Claude</strong><span>Default account</span></div><small>Signed in</small></div>
+          <div class="machine-row secondary"><div class="machine-avatar server">V</div><div><b>Production VPS</b><span>Remote · Ubuntu · SSH</span></div><small class="online">Online</small></div>
+        </div>
+      </section>
+
+      <section class="closing">
+        <span class="brand-mark closing-mark" aria-hidden="true">O</span>
+        <p class="eyebrow"><span></span> Operations, without the fog</p>
+        <h2>Give every agent a lane.<br />Keep every result accountable.</h2>
+        <a class="button button-primary" href="#top">Back to the command center <span aria-hidden="true">↑</span></a>
+      </section>
+    </main>
+
+    <footer>
+      <a class="brand" href="#top"><span class="brand-mark small" aria-hidden="true">O</span><span>OpsBoard</span></a>
+      <p>AI engineering operations for macOS.</p>
+      <nav class="footer-nav" aria-label="Footer navigation"><a href="#control">Control</a><a href="#workflow">Workflow</a><a href="#machines">Machines</a></nav>
+      <a href="https://github.com/JasonSujaya/OpsBoard-Landing">GitHub</a>
+    </footer>
+  </body>
+</html>
